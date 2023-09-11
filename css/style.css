@@ -1,4 +1,58 @@
-button {
+.web {
+  color: #2196f3;
+  font-size: 26px;
+  line-height: 30.52px;
+}
+.studio {
+  color: #000000;
+  font-size: 26px;
+  line-height: 35.96px;
+}
+
+.main-navigation a.active {
+  color: #2196f3;
+  width: 42;
+  height: 16px;
+  top: 32px;
+  left: 453px;
+}
+.main-navigation .portfolio {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.main-navigation .contacts {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.global-header {
+  background-color: #ffffff;
+}
+.main-navigation {
+  color: #ffffff#9b2727;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.email {
+  color: #2196f3;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.phone {
+  color: #757575;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.title {
+  color: #ffffff;
+  font-size: 44px;
+  line-height: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-service {
   background-color: #2196f3;
   color: #ffffff;
   font-weight: 700;
@@ -7,22 +61,36 @@ button {
   cursor: pointer;
 }
 
-.global-header .main-navigation a.active {
-  color: red;
-}
-.global-header {
-  background-color: #ffffff;
-  width: 1600px;
-  height: 80px;
+.button-service .page-section-content .button-service:hover {
+  color: mediumvioletred;
 }
 
-.section {
+.about-us p {
+  color: #757575;
+  font-size: 14px;
+  line-height: 24px;
+}
+.about-us h3 {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+.page-section-content {
   background-color: #2f303a;
-  width: 1600px;
-  height: 600px;
-  top: 80px;
 }
 
-.information {
-  background-color: #ffffff;
+.ocupation {
+  color: #212121;
+  font-size: 36px;
+  line-height: 42.19px;
+  align-items: center;
+}
+.studio-address {
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 30.52px;
+}
+.footer {
+  color: #2f303a;
 }
