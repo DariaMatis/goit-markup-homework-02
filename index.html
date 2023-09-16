@@ -17,15 +17,17 @@
     <header class="global-header">
       <div class="WebStudio">
         <a href="index.html" class="logo">
-          <h1 class="studio"><span class="web">Web</span>Studio</h1>
+          <h1 class="logo-studio">
+            <span class="web">Web</span><span class="studio"></span>Studio
+          </h1>
         </a>
       </div>
 
       <nav class="main-navigation">
-        <ul>
-          <li><a href="index.html" class="active">Studio</a></li>
-          <li><a href="portfolio.html" class="portfolio">Portfolio</a></li>
-          <li><a href="contacts.html" class="contacts">Contacts</a></li>
+        <ul class="global-header-nav">
+          <li><a href="index.html" class="nav-link-current">Studio</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          <li><a href="contacts.html" class="nav-link">Contacts</a></li>
         </ul>
       </nav>
 
@@ -112,51 +114,60 @@
         </ul>
 
         <div class="team">
-          <h1 class="ourteam">Our team</h1>
+          <h1 class="our-team">Our team</h1>
+          <ul>
+            <li>
+              <img src="images/echipa1.jpg" alt="primul-membru" width="270" />
+              <h3 class="members">Christopher Walker</h3>
+              <p class="function">Product Designer</p>
+            </li>
+          </ul>
+
           <ul>
             <li>
               <img
-                src="images/echipa1.jpg"
-                alt="Christopher Walker"
+                src="./images/echipa 2.jpg"
+                alt="al-doilea-membru"
                 width="270"
               />
 
-              <h3>Christopher Walker</h3>
-              <p>Product Designer</p>
+              <h3 class="members">Kylie Evans</h3>
+              <p class="function">Frontend Developer</p>
             </li>
           </ul>
 
           <ul>
             <li>
-              <img src="./images/echipa 2.jpg" alt="Kylie Evans" width="270" />
-
-              <h3>Kylie Evans</h3>
-              <p>Frontend Developer</p>
+              <img
+                src="images/echipa 3.jpg"
+                alt="al-treilea-memebru"
+                width="270"
+              />
+              <h3 class="members">Ryan Harris</h3>
+              <p class="function">Marketing</p>
             </li>
           </ul>
 
           <ul>
             <li>
-              <img src="images/echipa 3.jpg" alt="Ryan Harris" width="270" />
-              <h3>Ryan Harris</h3>
-              <p>Marketing</p>
-            </li>
-          </ul>
-
-          <ul>
-            <li>
-              <img src="images/echipa 4.jpg" alt="Tyler Moore" width="270" />
-              <h3>Tyler Moore</h3>
-              <p>UI Designer</p>
+              <img
+                src="images/echipa 4.jpg"
+                alt="al-patrulea-membru"
+                width="270"
+              />
+              <h3 class="members">Tyler Moore</h3>
+              <p class="function">UI Designer</p>
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="address">
+      <h1 class="studio-address"></h1>
+      <span class="web">Web</span>
+      <span class="studio-second">Studio</span>
       <address class="address">
-        <h1 class="studio-address"><span class="web">Web</span>Studio</h1>
         <ul>
           <li>
             <a hreaf="695 Park Ave, NY 10065, USA" class="location"
@@ -169,7 +180,10 @@
               >info@devstudio.com</a
             >
           </li>
-          <li><a href="tel:+1 212-772-4150" class="tel">+1 212-772-4150</a></li>
+
+          <li>
+            <a href="tel:+1 212-772-4150" class="tel">+1 212-772-4150</a>
+          </li>
         </ul>
       </address>
     </footer>
