@@ -9,9 +9,13 @@
   line-height: 35.96px;
 }
 
+.about-us {
+  list-style-type: none;
+}
+
 .main-navigation a.active {
   color: #2196f3;
-  width: 42;
+  width: 42px;
   height: 16px;
   top: 32px;
   left: 453px;
@@ -106,4 +110,8 @@
   color: #ffffff99;
   font-size: 14px;
   line-height: 16px;
+}
+
+.our-team {
+  text-align: center;
 }
