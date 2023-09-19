@@ -13,6 +13,13 @@
   font-weight: 700;
 }
 
+.WebStudio:hover,
+.logo-studio,
+.web:hover,
+.studio:hover {
+  color: mediumvioletred;
+}
+
 ul {
   list-style-type: none;
 }
@@ -29,22 +36,11 @@ ul {
   color: var(--highlight-color);
 }
 
-.nav-link-current:hover,
-.nav-link:hover {
+.main-navigation:hover,
+.global-header-nav:hover,
+.nav-link:hover,
+.nav-link-current:hover {
   color: mediumvioletred;
-}
-
-.nav-link-current:active,
-.nav-link-current:hover,
-.nav-link-current:focus,
-.nav-link-current:visited:active,
-.nav-link-current:visited:hover,
-.nav-link-current:visited:focus {
-  color: var(--active-link);
-}
-
-.nav-link-current:visited {
-  color: var(--active-link);
 }
 
 .main-navigation .nav-link {
@@ -166,6 +162,8 @@ ul {
   color: #ffffff;
   font-size: 26px;
   line-height: 30.52px;
+  font-style: normal;
+  font-family: raleway;
 }
 
 .team {
@@ -270,4 +268,11 @@ p {
 .button-fifth:hover {
   color: mediumvioletred;
   background-color: #188ce8;
+}
+
+.address:hover,
+.studio-address:hover .web:hover,
+.studio-second:hover,
+.location:hover {
+  color: mediumvioletred;
 }
