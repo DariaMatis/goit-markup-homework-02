@@ -158,7 +158,7 @@ ul {
 .tel {
   color: #ffffff99;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.71;
 }
 
 .studio-second {
@@ -228,8 +228,13 @@ p {
   font-weight: 500;
   font-size: 16px;
   text-align: center;
+  cursor: pointer;
+  font-family: inherit;
 }
 
-.button-All {
-  color: #2196f3;
+.button-first {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: inherit;
 }
