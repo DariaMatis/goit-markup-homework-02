@@ -101,7 +101,7 @@ ul {
 }
 
 .button-service:hover {
-  color: mediumvioletred;
+  background-color: mediumvioletred;
 }
 
 .description {
